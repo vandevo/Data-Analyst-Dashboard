@@ -13,3 +13,21 @@ body {
     background-attachment: fixed;
     font-family: 'Poppins', sans-serif;
 }
+
+.container {
+    margin: 1em .5em;
+    height: calc(100% - 2em);
+
+} 
+
+section {
+    background:  #221F26 url('/bg.jpg');
+    background-size:cover;
+    background-blend-mode: screen;
+    background-position: -100px;
+    height: 100%;
+}
+
+nav {
+    display: none;
+}
